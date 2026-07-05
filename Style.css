@@ -60,6 +60,8 @@ h1{
     cursor:pointer;
     text-align:left;
     font-size:16px;
+    color:#000;
+    font-weight:bold;
 }
 
 .option:hover{
