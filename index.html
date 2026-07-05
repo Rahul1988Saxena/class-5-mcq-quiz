@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class 5 Computer MCQ Quiz</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Class 5 Computer MCQ Quiz</h1>
+
+<div id="startScreen">
+<input type="text" id="studentName" placeholder="Enter Student Name">
+<br><br>
+<button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<div id="quizBox" style="display:none;">
+
+<div class="top">
+<span id="questionNo"></span>
+<span id="timer">20:00</span>
+</div>
+
+<h2 id="question"></h2>
+
+<div id="options"></div>
+
+<br>
+
+<button onclick="previousQuestion()">Previous</button>
+<button onclick="nextQuestion()">Next</button>
+<button onclick="submitQuiz()">Submit</button>
+
+</div>
+
+<div id="result" style="display:none;">
+<h2>Quiz Result</h2>
+<p id="student"></p>
+
+<p id="score"></p>
+
+<p id="percentage"></p>
+
+<button onclick="location.reload()">Restart Quiz</button>
+
+</div>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
